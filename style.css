@@ -11,8 +11,13 @@ h1 {
     color: blue;
 }
 
+p {
+    text-align: justify;
+}
+
 section {
     display: flex;
+    padding-bottom: 100px;
 }
 
 .half-width {
@@ -35,4 +40,10 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dreem-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
